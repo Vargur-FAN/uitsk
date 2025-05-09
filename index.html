@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ООО "ГРОВЕР СК" - Надежный поставщик скобяных изделий</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Arial', sans-serif; background-color: #f4f6f9; color: #333; line-height: 1.6; }
+
+    header {
+      background: linear-gradient(135deg, #1a73e8, #4caf50);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #1a73e8;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 40px;
+    }
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    li:before {
+      content: "✔";
+      color: #4caf50;
+      position: absolute;
+      left: 0;
+    }
+
+    .team, .clients, .form, .why-us {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 30px;
+    }
+
+    .team-member, .client-logo {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    .form input, .form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      background-color: #f9f9f9;
+    }
+
+    .form button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form button:hover {
+      background-color: #4caf50;
+    }
+
+    .why-us p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ООО "ГРОВЕР СК"</h1>
+  <p>Скобяные изделия для дома и бизнеса — надёжно, профессионально, вовремя</p>
+</header>
+
+<section>
+  <h2>Наши услуги</h2>
+  <ul>
+    <li>Онлайн-заказы и быстрая доставка (доступность: 8*5)</li>
+    <li>Консультации по выбору продукции (доступность: 24*7)</li>
+    <li>Техническая поддержка магазинов и B2B-клиентов</li>
+  </ul>
+</section>
+
+<section class="team">
+  <h2>Наша команда</h2>
+  <div class="team-member"><strong>Андрей Смирнов</strong> – Руководитель ИТ-отдела</div>
+  <div class="team-member"><strong>Екатерина Лебедева</strong> – Специалист по техподдержке</div>
+  <div class="team-member"><strong>Иван Кузьмин</strong> – Программист по автоматизации</div>
+  <div class="team-member"><strong>Марина Орлова</strong> – Аналитик</div>
+  <div class="team-member"><strong>Алексей Волков</strong> – Системный администратор</div>
+</section>
+
+<section class="clients">
+  <h2>Наши клиенты</h2>
+  <div class="client-logo">🔩 СтройМир</div>
+  <div class="client-logo">🏠 ДомМаркет</div>
+  <div class="client-logo">🛠️ ХозБытТрейд</div>
+  <div class="client-logo">🤝 ООО "Фирма Руссконнект"</div>
+</section>
+
+<section class="form">
+  <h2>Оставьте заявку</h2>
+  <form>
+    <input type="text" placeholder="Ваше имя" required>
+    <input type="email" placeholder="Email или телефон" required>
+    <textarea placeholder="Ваш интерес или вопрос" rows="4"></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+</section>
+
+<section class="why-us">
+  <h2>Почему выбирают нас?</h2>
+  <p>
+    Мы обеспечиваем высокий уровень обслуживания и надёжности. За последний месяц успешно решено более 100 обращений, уровень
+    удовлетворённости клиентов – 80%. Половина наших сотрудников сертифицированы по ITIL. Мы предлагаем лучшие цифровые решения
+    для вашего бизнеса!
+  </p>
+</section>
+
+<div class="footer">
+  © 2025 ООО "ГРОВЕР СК". Все права защищены.
+</div>
+
+</body>
+</html>
